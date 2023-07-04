@@ -7,14 +7,17 @@ const Nav = () => {
       <Navbar className="bg-danger">
         <Container>
           <Navbar.Collapse className="justify-content-start">
-            <Link to="/" className="text-white p-2">
-              Home
+            <Link to="/" className="text-white p-2 text-decoration-none">
+              🏠 Home
             </Link>
-            <Link to="/contacto" className="text-white p-2">
-              Contacto
+            <Link
+              to="/contacto"
+              className="text-white p-2 text-decoration-none"
+            >
+              📒 Contacto
             </Link>
           </Navbar.Collapse>
-          <Navbar.Brand className="text-white">Happy Cake</Navbar.Brand>
+          <Navbar.Brand className="text-white">Happy Cake 🍰</Navbar.Brand>
         </Container>
       </Navbar>
     </>

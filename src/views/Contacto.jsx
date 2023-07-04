@@ -3,7 +3,7 @@ import { Container, Form, Button } from "react-bootstrap";
 const Contacto = () => {
   return (
     <Container className="pt-5">
-      <h1 className="pt-5">Cuentanos, ¿en que te podemos ayudar?</h1>
+      <h2 className="pt-5">Cuentanos, ¿en que te podemos ayudar?</h2>
       <Form>
         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
           <Form.Label>Correo:</Form.Label>
