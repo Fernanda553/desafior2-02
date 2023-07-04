@@ -7,7 +7,11 @@ const Contacto = () => {
       <Form>
         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
           <Form.Label>Correo:</Form.Label>
-          <Form.Control type="email" placeholder="name@example.com" />
+          <Form.Control
+            className="text-center"
+            type="email"
+            placeholder="name@example.com"
+          />
         </Form.Group>
         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
           <Form.Label>Descripción</Form.Label>
