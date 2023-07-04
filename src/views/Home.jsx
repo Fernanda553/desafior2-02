@@ -4,9 +4,9 @@ const Home = () => {
   return (
     <Container className="text-center">
       <h1 className="pt-5">
-        Biendenido a <span className="fw-bold">Dogstel</span> 🐶
+        Bienvenido a <span className="fw-bold">Happy Cake</span>
       </h1>
-      <h6> El mejor hotel para perros de la región</h6>
+      <p> El lugar de los pasteles felices</p>
     </Container>
   );
 };
